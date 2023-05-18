@@ -41,6 +41,7 @@ header {
 
 .our-vision {
     background-color: coral;
+    display: flex;
 }
 
 .easy-step {
