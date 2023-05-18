@@ -17,23 +17,26 @@ ul {
     list-style-type: none; /*Para sacarle los puntitos a las listas*/
 }
 
-/* Propiedades de los atributos */
+img {
+    width: 50%;
+}
+
+/* Estilando los contenedores principales */
 header {
     background-color: aqua;
     display: flex;
     justify-content: space-evenly;
 }
 
-
-/* Propiedades de las clases */
 .hero {
     background-color: aquamarine;
-    
+    display: flex;
 }
 
 .Featured-Listing {
     background-color: cadetblue;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .our-vision {
@@ -46,4 +49,18 @@ header {
 
 .choose {
     background-color: darkgoldenrod;
+}
+
+/* Subcontenedores de los principales */
+
+.featured-listing .contenedor-cards {
+    display: flex;
+}
+
+.featured-listing .alineardeados{
+    display: flex;
+}
+
+.hero .imagen-hero {
+    transform: scaleX(-1);
 }
