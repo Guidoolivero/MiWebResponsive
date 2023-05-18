@@ -20,16 +20,20 @@ ul {
 /* Propiedades de los atributos */
 header {
     background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
 /* Propiedades de las clases */
 .hero {
     background-color: aquamarine;
+    
 }
 
 .Featured-Listing {
     background-color: cadetblue;
+    
 }
 
 .our-vision {
