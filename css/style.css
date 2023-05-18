@@ -54,14 +54,28 @@ header {
 
 /* Subcontenedores de los principales */
 
-.featured-listing .contenedor-cards {
+/* .featured-listing .contenedor-cards {
     display: flex;
 }
 
 .featured-listing .alineardeados{
     display: flex;
-}
+} */
 
 .hero .imagen-hero {
     transform: scaleX(-1);
+}
+
+.easy-step .contenedor-pasos {
+    display: flex;
+}
+
+/* Seccion para las clases */
+
+.alineardeados {
+    display: flex;
+}
+
+.contendorDeCuatro {
+    display: flex;
 }
