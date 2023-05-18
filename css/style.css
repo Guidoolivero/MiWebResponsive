@@ -1,7 +1,29 @@
+/* selector universal */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* Limpiar efectos que vienen por default */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none; /*Para sacarle los puntitos a las listas*/
+}
+
+/* Propiedades de los atributos */
 header {
     background-color: aqua;
 }
 
+
+/* Propiedades de las clases */
 .hero {
     background-color: aquamarine;
 }
