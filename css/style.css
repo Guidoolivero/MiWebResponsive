@@ -26,31 +26,38 @@ header {
     background-color: aqua;
     display: flex;
     justify-content: space-evenly;
+    height: 3rem;
 }
-
+/* Solo se le da altura al header y el hero */
 .hero {
     background-color: aquamarine;
     display: flex;
+    height: 80vh; /*Solo se usa para el hero*/
 }
 
-.Featured-Listing {
+.featured-listing {
     background-color: cadetblue;
     display: flex;
     flex-direction: column;
+    /* margin-top: 80px; para ver la diferencia con el padding*/
+    padding: 4.5rem 0;
 }
 
 .our-vision {
     background-color: coral;
     display: flex;
+    padding: 4.5rem 0;
 }
 
 .easy-step {
     background-color: darkolivegreen;
+    padding: 4.5rem 0;
 }
 
 .choose {
     background-color: darkgoldenrod;
     display: flex;
+    padding: 4.5rem 0;
 }
 
 /* Subcontenedores de los principales */
