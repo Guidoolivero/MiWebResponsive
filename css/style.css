@@ -50,6 +50,7 @@ header {
 
 .choose {
     background-color: darkgoldenrod;
+    display: flex;
 }
 
 /* Subcontenedores de los principales */
