@@ -146,7 +146,7 @@ header a {
 /* Media Queries */
 
 /* Telefono */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
    .hero img{
     display: none;
    }
@@ -168,7 +168,7 @@ header a {
        }
 } 
    
-
+/* PC */
 @media screen and (min-width: 1024px) {
    body {
     background-color: red;
